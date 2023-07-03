@@ -19,7 +19,7 @@ traditional dice. The cycling is randomly triggered by hand motion
 and happens too fast to control the outcome. When the hand is withdrawn
 the bug will show a random facet.
 
-The bug is operated by a CR2032 lithium battery. A small power-switch
+The bug's preferred meal is a CR2032 lithium battery. A small power-switch
 is located at the tail end of the animal.
 
 Occasionally, the motion sensor may have to recalibrate itself
@@ -44,7 +44,7 @@ You need to have the PCB manufactured. There are many companies (mostly
 in China) who do this cheaply. I found, however, that most manufacturers
 would not offer the red solder mask combined with black ink (silkscreen)
 that I liked. Eventually, I came across [elecrow](https://www.elecrow.com)
-and they would make the PCBs they way I wanted them (slightly more
+who would make the PCBs they way I wanted them (slightly more
 expensive "premium service").
 
 Make sure to also order a couple of stainless steel stencils
@@ -59,7 +59,7 @@ The parts can be obtained from standard electronics distributors
 
 For the feet I use brass-plated nails, 1.2mm (dia) x 12mm (length).
 
-You'll also need solder paste (I had good results with low-temperature
+You'll also need solder paste (I had good results with lead-free low-temperature
 paste, Chipquik TS391LT50, which melts aroung 138degC).
 
 For the actual soldering you'll need a cheap toster oven or a hotplate,
@@ -67,13 +67,13 @@ YMMV. There are many instructions available on the internet.
 
 #### IQS211 Capacitive Sensor Programming
 
-This IC is very versatile for this kind of application. I have regularly
-found at Mouser; Digikey sometimes don't have them.
+This IC is very versatile and ideal for this kind of application.
+I have regularly found it at Mouser; DigiKey sometimes don't have them.
 
 Note that you need to configure ("burn") the IQS211's OTP options prior
 to using it in your application. Unfortunately, this means that you need
 the Azoteq CT210 Programmer (also available from distributors) and a
-programming socket (e.g., [here](../kicad-sot23-prog.git)).
+programming socket (e.g., [here](https://git@github.com/till-s/kicad-sot23-prog.git)).
 
 The configuration value is stated in the schematics.
 
@@ -92,9 +92,9 @@ the board.
 #### Feet
 
 After assembling and soldering/toasting the board I use a small hammer
-and carefully hit the small nails just enough so that they are fixed
+and carefully hit the small nails just enough so that they hold on
 in the mounting holes. Turn the bug on its feet to verify that it stands
-nicely, tweaking the feet if necessary. Eventually, you use a conventional
+nicely tweaking the feet if necessary. Eventually, you use a conventional
 soldering iron and (lead-free) solder to fix the feet permanently.
 
 Good luck!
