@@ -59,7 +59,7 @@ The parts can be obtained from the usual electronics distributors
 paste; I had good results with lead-free low-temperature
 paste, Chipquik TS391LT50, which melts around 138degC.
 
-Brass-plated nails, 1.2mm (dia) x 12mm (length) I found at a DIY shop
+Brass-plated nails, 1.2mm (dia) x 12mm (length), which I found at a DIY shop
 make nice legs.
 
 For the actual soldering you'll need a cheap toster oven or a hotplate,
