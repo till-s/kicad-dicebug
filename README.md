@@ -73,7 +73,7 @@ I have regularly found it at Mouser; DigiKey sometimes don't have them.
 Note that you need to configure ("burn") the IQS211's OTP options prior
 to using it in your application. Unfortunately, this means that you need
 the Azoteq CT210 Programmer (also available from distributors) and a
-programming socket (e.g., [here](https://git@github.com/till-s/kicad-sot23-prog.git)).
+programming socket (e.g., [here](https://github.com/till-s/kicad-sot23-prog.git)).
 
 The configuration value is stated in the schematics.
 
