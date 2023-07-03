@@ -8,7 +8,8 @@
     (title "DiceBug")
     (date "2023-05-30")
     (rev "1.0")
-    (company "Till Straumann")
+    (company "Till Straumann; Artwork by Adam.")
+    (comment 1 "License: OHL-S/CC-BY-NC-ND")
   )
 
   (lib_symbols
@@ -2671,7 +2672,7 @@
     (property "Reference" "R8" (at 81.5086 59.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47k" (at 81.5086 62.103 0)
+    (property "Value" "51k" (at 81.5086 62.103 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 80.01 60.96 0)
