@@ -2085,7 +2085,7 @@
     (property "Reference" "R13" (at 103.0986 150.5966 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47k" (at 103.0986 152.908 0)
+    (property "Value" "51k" (at 103.0986 152.908 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 101.6 151.765 0)
