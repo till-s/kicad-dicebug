@@ -8,7 +8,7 @@ This is a simple electronics project that I have created to
 teach kids how electronic circuits are "built" -- in a physical
 sense. They don't have to understand how it works (6 year olds
 have assembled the bug) but just have fun placing the small
-components on the board, watch the solder melt in the toaster
+components on the board, watching the solder melt in a toaster
 oven and walk away with the finished product.
 
 ![Upside View](art/upside.png) ![Belly View](art/belly.png)
@@ -44,7 +44,7 @@ You need to have the PCB manufactured. There are many companies (mostly
 in China) who do this cheaply. I found, however, that most manufacturers
 would not offer the red solder mask combined with black ink (silkscreen)
 that I liked. Eventually, I came across [elecrow](https://www.elecrow.com)
-who would make the PCBs they way I wanted them (slightly more
+who would make the PCBs the way I wanted them (slightly more
 expensive "premium service").
 
 Make sure to also order a couple of stainless steel stencils
@@ -54,20 +54,20 @@ single source...
 
 #### Parts
 
-The parts can be obtained from standard electronics distributors
-(DigiKey, Mouser, Farnell).
+The parts can be obtained from the usual electronics distributors
+(DigiKey, Mouser, Farnell, ...). These sources also sell solder
+paste; I had good results with lead-free low-temperature
+paste, Chipquik TS391LT50, which melts around 138degC.
 
-For the feet I use brass-plated nails, 1.2mm (dia) x 12mm (length).
-
-You'll also need solder paste (I had good results with lead-free low-temperature
-paste, Chipquik TS391LT50, which melts aroung 138degC).
+Brass-plated nails, 1.2mm (dia) x 12mm (length) I found at a DIY shop
+make nice legs.
 
 For the actual soldering you'll need a cheap toster oven or a hotplate,
 YMMV. There are many instructions available on the internet.
 
 #### IQS211 Capacitive Sensor Programming
 
-This IC is very versatile and ideal for this kind of application.
+Azoteq's IQS211 is very versatile and ideal for this kind of application.
 I have regularly found it at Mouser; DigiKey sometimes don't have them.
 
 Note that you need to configure ("burn") the IQS211's OTP options prior
@@ -79,12 +79,12 @@ The configuration value is stated in the schematics.
 
 ### Assembly
 
-Nothing special here; I have a bunch of tweezers that I lend the
-kids so they can work in parallel. Usually a kid's eyesight is
+Nothing special here; I have a bunch of tweezers that I lend to the
+kids so that they can work in parallel. Usually a kid's eyesight is
 good enough to see the 805 parts perfectly. Adults may need glasses.
 
 Spend some time on the internet if you have never done this; there
-are many resources available.
+are many resources available that teach how to harness SMT.
 
 Obvously, you only install the battery into the holder after soldering
 the board.
