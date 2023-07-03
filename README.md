@@ -97,4 +97,12 @@ in the mounting holes. Turn the bug on its feet to verify that it stands
 nicely tweaking the feet if necessary. Eventually, you use a conventional
 soldering iron and (lead-free) solder to fix the feet permanently.
 
-Good luck!
+### Good luck!
+
+
+### License
+
+This project is licensed under the OHL-S [open-hardware license]
+(https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2); the
+artwork was created by my kid and is licensed under
+![CC-BY-NC-ND](https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png)
