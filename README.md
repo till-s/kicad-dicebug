@@ -14,7 +14,7 @@ oven and walk away with the finished product.
 ![Upside View](art/upside.png) ![Belly View](art/belly.png)
 
 The cute bug features a motion sensor and operates as an "electronic
-dice" cycling throught the familiar pattern of pips we know from
+dice" cycling throught the familiar patterns of pips we know from
 traditional dice. The cycling is randomly triggered by hand motion
 and happens too fast to control the outcome. When the hand is withdrawn
 the bug will show a random facet.
@@ -30,6 +30,71 @@ Since the battery is exposed don't store the or operate the device
 in a conducting bag or box.
 
 ## Warning
+
 *Keep (any type of) batteries away from small children. Swallowing
 batteries can be life-threatening!*
 
+## Assembly Instructions
+
+### Prerequisites
+
+#### PCB
+
+You need to have the PCB manufactured. There are many companies (mostly
+in China) who do this cheaply. I found, however, that most manufacturers
+would not offer the red solder mask combined with black ink (silkscreen)
+that I liked. Eventually, I came across [elecrow](https://www.elecrow.com)
+and they would make the PCBs they way I wanted them (slightly more
+expensive "premium service").
+
+Make sure to also order a couple of stainless steel stencils
+(more than one if you work with groups of kids). PCB manufacturers often
+also offer stencils and you save on shipping cost when ordering from a
+single source...
+
+#### Parts
+
+The parts can be obtained from standard electronics distributors
+(DigiKey, Mouser, Farnell).
+
+For the feet I use brass-plated nails, 1.2mm (dia) x 12mm (length).
+
+You'll also need solder paste (I had good results with low-temperature
+paste, Chipquik TS391LT50, which melts aroung 138degC).
+
+For the actual soldering you'll need a cheap toster oven or a hotplate,
+YMMV. There are many instructions available on the internet.
+
+#### IQS211 Capacitive Sensor Programming
+
+This IC is very versatile for this kind of application. I have regularly
+found at Mouser; Digikey sometimes don't have them.
+
+Note that you need to configure ("burn") the IQS211's OTP options prior
+to using it in your application. Unfortunately, this means that you need
+the Azoteq CT210 Programmer (also available from distributors) and a
+programming socket (e.g., [here](../kicad-sot23-prog.git)).
+
+The configuration value is stated in the schematics.
+
+### Assembly
+
+Nothing special here; I have a bunch of tweezers that I lend the
+kids so they can work in parallel. Usually a kid's eyesight is
+good enough to see the 805 parts perfectly. Adults may need glasses.
+
+Spend some time on the internet if you have never done this; there
+are many resources available.
+
+Obvously, you only install the battery into the holder after soldering
+the board.
+
+#### Feet
+
+After assembling and soldering/toasting the board I use a small hammer
+and carefully hit the small nails just enough so that they are fixed
+in the mounting holes. Turn the bug on its feet to verify that it stands
+nicely, tweaking the feet if necessary. Eventually, you use a conventional
+soldering iron and (lead-free) solder to fix the feet permanently.
+
+Good luck!
