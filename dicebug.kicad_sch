@@ -9,7 +9,7 @@
     (date "2023-05-30")
     (rev "1.0")
     (company "Till Straumann; Artwork by Adam.")
-    (comment 1 "License: OHL-S/CC-BY-NC-ND")
+    (comment 1 "License: OHL-S/CC-BY-NC-ND; no warranty, express or implicit.")
   )
 
   (lib_symbols
